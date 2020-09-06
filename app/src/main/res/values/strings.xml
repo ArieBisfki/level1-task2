@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MadLevel1Task2</string>
+    <string name="tv_top_title">Conjunction (AND)</string>
+    <string name="tv_row1_col1">A</string>
+    <string name="tv_row1_col2">B</string>
+    <string name="tv_row1_col3">A ^ B</string>
+    <string name="tv_true">T</string>
+    <string name="tv_false">F</string>
+</resources>
