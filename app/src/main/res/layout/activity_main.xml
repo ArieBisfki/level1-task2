@@ -81,6 +81,9 @@
 
             <EditText
                 android:id="@+id/etRow1"
+                android:digits="TF"
+                android:singleLine="true"
+                android:maxLength="1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -112,6 +115,9 @@
 
             <EditText
                 android:id="@+id/etRow2"
+                android:digits="TF"
+                android:singleLine="true"
+                android:maxLength="1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -142,6 +148,9 @@
 
             <EditText
                 android:id="@+id/etRow3"
+                android:digits="TF"
+                android:singleLine="true"
+                android:maxLength="1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -172,6 +181,9 @@
 
             <EditText
                 android:id="@+id/etRow4"
+                android:digits="TF"
+                android:singleLine="true"
+                android:maxLength="1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
