@@ -4,7 +4,9 @@
     <string name="tv_row1_col1">A</string>
     <string name="tv_row1_col2">B</string>
     <string name="tv_row1_col3">A ^ B</string>
-    <string name="tv_true">T</string>
-    <string name="tv_false">F</string>
+    <string name="text_true">T</string>
+    <string name="text_false">F</string>
     <string name="btn_submit">Submit</string>
+    <string name="text_correct_answers_count">Amount of correct answers: %d</string>
+    <string name="text_all_answers_required">Fill in all of the answers.</string>
 </resources>
