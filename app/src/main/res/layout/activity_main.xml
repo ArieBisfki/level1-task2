@@ -18,145 +18,172 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TableLayout
-        app:layout_constraintTop_toBottomOf="@id/tvTopTitle"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginTop="40dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
+        android:id="@+id/tableLayout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <TableRow>
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintBottom_toTopOf="@id/btnSubmit"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvTopTitle">
+
+        <TableRow
+            android:layout_marginBottom="20sp">
+
             <TextView
-                android:textStyle="bold"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center"
                 android:layout_weight="1"
+                android:gravity="center"
                 android:text="@string/tv_row1_col1"
-                android:textSize="30sp"/>
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <TextView
-                android:textStyle="bold"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center"
                 android:layout_weight="1"
+                android:gravity="center"
                 android:text="@string/tv_row1_col2"
-                android:textSize="30sp"/>
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <TextView
-                android:textStyle="bold"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center"
                 android:layout_weight="1"
+                android:gravity="center"
                 android:text="@string/tv_row1_col3"
-                android:textSize="30sp"/>
+                android:textSize="30sp"
+                android:textStyle="bold" />
         </TableRow>
 
-        <TableRow>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:layout_weight="1"
-                android:text="@string/tv_true"
-                android:textSize="30sp"/>
+        <TableRow
+            android:paddingTop="15sp"
+            android:paddingBottom="15sp">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center"
                 android:layout_weight="1"
+                android:gravity="center"
                 android:text="@string/tv_true"
-                android:textSize="30sp"/>
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/tv_true"
+                android:textSize="30sp" />
 
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center"
                 android:layout_weight="1"
-                android:textSize="30sp"/>
+                android:gravity="center"
+                android:textSize="30sp" />
         </TableRow>
 
-        <TableRow>
+        <TableRow
+            android:paddingTop="15sp"
+            android:paddingBottom="15sp">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center"
                 android:layout_weight="1"
+                android:gravity="center"
                 android:text="@string/tv_true"
-                android:textSize="30sp"/>
+                android:textSize="30sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center"
                 android:layout_weight="1"
+                android:gravity="center"
                 android:text="@string/tv_false"
-                android:textSize="30sp"/>
+                android:textSize="30sp" />
 
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center"
                 android:layout_weight="1"
-                android:textSize="30sp"/>
+                android:gravity="center"
+                android:textSize="30sp" />
         </TableRow>
 
-        <TableRow>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:layout_weight="1"
-                android:text="@string/tv_false"
-                android:textSize="30sp"/>
+        <TableRow
+            android:paddingTop="15sp"
+            android:paddingBottom="15sp">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center"
                 android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/tv_false"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
                 android:text="@string/tv_true"
-                android:textSize="30sp"/>
+                android:textSize="30sp" />
 
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center"
                 android:layout_weight="1"
-                android:textSize="30sp"/>
+                android:gravity="center"
+                android:textSize="30sp" />
         </TableRow>
 
-        <TableRow>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:layout_weight="1"
-                android:text="@string/tv_false"
-                android:textSize="30sp"/>
+        <TableRow
+            android:paddingTop="15sp"
+            android:paddingBottom="15sp">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center"
                 android:layout_weight="1"
+                android:gravity="center"
                 android:text="@string/tv_false"
-                android:textSize="30sp"/>
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/tv_false"
+                android:textSize="30sp" />
 
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center"
                 android:layout_weight="1"
-                android:textSize="30sp"/>
+                android:gravity="center"
+                android:textSize="30sp" />
         </TableRow>
 
     </TableLayout>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_marginBottom="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tableLayout" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

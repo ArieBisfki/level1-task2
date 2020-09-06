@@ -6,4 +6,5 @@
     <string name="tv_row1_col3">A ^ B</string>
     <string name="tv_true">T</string>
     <string name="tv_false">F</string>
+    <string name="btn_submit">Submit</string>
 </resources>
