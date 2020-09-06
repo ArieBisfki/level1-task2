@@ -80,6 +80,7 @@
                 android:textSize="30sp" />
 
             <EditText
+                android:id="@+id/etRow1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -110,6 +111,7 @@
                 android:textSize="30sp" />
 
             <EditText
+                android:id="@+id/etRow2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -139,6 +141,7 @@
                 android:textSize="30sp" />
 
             <EditText
+                android:id="@+id/etRow3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -168,6 +171,7 @@
                 android:textSize="30sp" />
 
             <EditText
+                android:id="@+id/etRow4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
